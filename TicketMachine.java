@@ -9,7 +9,7 @@
  * @author David J. Barnes and Michael Kolling
  * @version 2008.03.30
  */
-public class TicketMachine
+ class TicketMachine
 {
     // The price of a ticket from this machine.
     private int price;
@@ -43,7 +43,7 @@ public class TicketMachine
      * next ticket.
      */
     public int getBalance()
-    {
+    { 
         return balance;
     }
 
